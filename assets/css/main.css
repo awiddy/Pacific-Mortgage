@@ -2437,6 +2437,7 @@
 			font-weight: 400; /*font-weight: 600; originially*/
 			margin: 0 0 1em 0;
 			margin-left: 2em; /*added to give lefthand margin space*/
+			margin-top: 2em; /*added to give space above*/
 		}
 
 		dl dd {
