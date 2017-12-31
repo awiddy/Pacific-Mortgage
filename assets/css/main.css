@@ -2442,6 +2442,7 @@
 
 		dl dd {
 			margin-left: 4em; /*increased from 2em*/
+			margin-bottom: 1em; /*added for some space below*/
 		}
 
 /* Table */
