@@ -2265,7 +2265,7 @@
 				width: 100%;
 			}
 		
-		image.bioform img{            /*created for bio part of about us*/
+		.bioform img{            /*use class bioform (no img)*/
 			display: block;
 			margin: auto;  
 			clear: left; 
