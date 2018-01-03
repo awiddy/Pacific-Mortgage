@@ -2265,15 +2265,23 @@
 				width: 100%;
 			}
 		
-		.bioform img{            /*use class bioform (no img)*/
-			display: block;
-			margin: auto;  
-			clear: left; 
-			width: 500px; 
-			height: 500px;
-			border-radius: 25px;
-
-		}
+	.bioform img{            /*use class bioform (no img)*/
+		display: block;
+		margin: auto;  
+		clear: left; 
+		width: 500px; 
+		height: 500px;
+		border-radius: 25px;
+	}
+	
+	.blip img{
+		display: block;
+		margin: auto;  
+		clear: left; 
+		width: 200px; 
+		height: 200px;
+		border-radius: 20%;	
+	}
 
 /* List */
 
