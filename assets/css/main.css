@@ -2265,7 +2265,7 @@
 				width: 100%;
 			}
 		
-		bioform img{            /*created for bio part of about us*/
+		image.bioform img{            /*created for bio part of about us*/
 			display: block;
 			margin: auto;  
 			clear: left; 
