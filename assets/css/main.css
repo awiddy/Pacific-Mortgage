@@ -2265,13 +2265,14 @@
 				width: 100%;
 			}
 		
-		.image.bioForm img{            /*created for bio part of about us*/
-			border-radius: 25px;
+		bioform{            /*created for bio part of about us*/
 			display: block;
+			margin: auto;  
 			clear: left; 
-   			margin: auto;  
 			width: 500px; 
 			height: 500px;
+			border-radius: 25px;
+
 		}
 
 /* List */
