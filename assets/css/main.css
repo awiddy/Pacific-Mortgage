@@ -2266,9 +2266,9 @@
 			}
 		
 		.image.bioForm {            /*created for bio part of about us*/
-			padding: 0 0 1em 1.5em;
-			top: 0.25em;
-			width: 5%;
+			display: block;
+			clear: left;
+   			margin: auto;
 		}
 
 /* List */
