@@ -2265,7 +2265,7 @@
 				width: 100%;
 			}
 		
-		.image.bioForm {            /*created for bio part of about us*/
+		.image.bioForm img{            /*created for bio part of about us*/
 			border-radius: 25px;
 			display: block;
 			clear: left; 
