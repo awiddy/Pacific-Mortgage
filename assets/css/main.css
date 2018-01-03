@@ -2267,7 +2267,7 @@
 		
 		.image.bioForm {            /*created for bio part of about us*/
 			display: block;
-			clear: left;
+			/* clear: left; */
    			margin: auto;
 		}
 
