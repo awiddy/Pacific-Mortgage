@@ -2269,6 +2269,8 @@
 			display: block;
 			clear: left; 
    			margin: 1px auto;  
+			width : 500px; 
+			height :500px;
 		}
 
 /* List */
