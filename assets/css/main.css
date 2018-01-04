@@ -2276,11 +2276,11 @@
 	
 	.bioflow img{            /*use class bioform (no img)*/
 		float: left; 
-		margin-right: 10px;
+		margin-right: 30px;
 		margin-bottom: 10px;
 		display: block;
-		width: 500px; 
-		height: 500px;
+		width: 375px; 
+		height: 375px;
 		border-radius: 25px;
 	}
 	
