@@ -2274,6 +2274,16 @@
 		border-radius: 25px;
 	}
 	
+	.bioflow img{            /*use class bioform (no img)*/
+		float: left; 
+		margin-right: 10px;
+		margin-bottom: 10px;
+		display: block;
+		width: 500px; 
+		height: 500px;
+		border-radius: 25px;
+	}
+	
 	.blip img{
 		display: block;
 		margin: auto;  
