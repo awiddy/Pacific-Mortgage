@@ -2949,7 +2949,7 @@
 
 		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.8); /*changed last from 0.85 guessing its opacity*/
+			background: rgba(75, 75, 93, 0.2); /*changed last from 0.85 guessing its opacity*/
 			position: absolute;
 			width: 100%;
 			height: 100%;
