@@ -2695,7 +2695,7 @@
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 			color: #fff !important;
 			cursor: default;
-			opacity: 0.50; /*originally 0.25*/
+			opacity: 0.25; /*opacity for button*/
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2949,7 +2949,7 @@
 
 		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.85);
+			background: rgba(75, 75, 93, 0.8); /*changed last from 0.85 guessing its opacity*/
 			position: absolute;
 			width: 100%;
 			height: 100%;
