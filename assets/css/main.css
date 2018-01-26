@@ -2300,7 +2300,7 @@
 		height: 200px;
 		border-radius: 20%;
 	}
-	.logoPic_left img{            /*use class bioform (no img)*/
+	.logoLeft img{            /*use class bioform (no img)*/
 		float: left;
 		margin-right: 30px;
 		margin-bottom: 10px;
