@@ -2301,18 +2301,13 @@
 		border-radius: 20%;
 	}
 	.logoPic_left img{            /*use class bioform (no img)*/
-		float: right;
-		margin-left: 30px;
+		float: left;
+		margin-right: 30px;
 		margin-bottom: 10px;
 		display: block;
 		width: 375px;
 		height: 375px;
 		border-radius: 25px;
-		/*float: left;
-		margin-right: 30px;
-		margin-bottom: 10px;
-		display: block;
-		width: 80px; */
 	}
 
 /* List */
