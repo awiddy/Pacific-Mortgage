@@ -2303,11 +2303,8 @@
 	.logoLeft img{            /*use class bioform (no img)*/
 		float: left;
 		margin-right: 30px;
-		margin-bottom: 10px;
 		display: block;
-		width: 375px;
-		height: 375px;
-		border-radius: 25px;
+		width: 80px;
 	}
 
 /* List */
