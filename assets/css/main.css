@@ -3161,6 +3161,198 @@
 
 		}
 
+	#bannerScraper {
+		padding: 8em 0 9em 0;
+		background-image: url(../../images/hammockFronds.JPG);
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+	}
+
+		#bannerScraper:before {
+			content: '';
+			background: rgba(75, 75, 93, 0.4); /*changed last from 0.85 guessing its opacity*/
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		#bannerScraper .inner {
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 8em;
+		}
+
+		#bannerScraper h1 {
+			font-size: 3.5em;
+			font-weight: 400;
+			color: #fff;
+			line-height: 1em;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+
+		#bannerScraper h3 {
+			font-weight: 400;
+			color: #fff;
+			margin: 0;
+			font-size: 1.5em;
+		}
+
+		#bannerScraper .icon {
+			color: #6cc091 /* Color replace */;
+			font-size: 2em;
+		}
+
+		#bannerScraper p {
+			font-size: 1em;
+			color: rgba(255, 255, 255, 0.55);
+			margin-bottom: 1.75em;
+		}
+
+		#bannerScraper .flex {
+			-ms-flex-pack: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto 4em auto;
+		}
+
+			#bannerScraper .flex div {
+				border-right: 2px solid rgba(255, 255, 255, 0.2);
+				padding: 0 8em;
+			}
+
+				#bannerScraper .flex div:last-child {
+					border: none;
+					padding-right: 0;
+				}
+
+				#bannerScraper .flex div:first-child {
+					padding-left: 0;
+				}
+
+				#bannerScraper .flex div p {
+					margin: 0;
+				}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+			#bannerScraper {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			#bannerScraper .flex div {
+				padding: 0 6em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#bannerScraper {
+				padding: 7em 0 6em 0;
+			}
+
+				#bannerScraper .inner {
+					padding-top: 6em;
+				}
+
+				#bannerScraper h1 {
+					font-size: 3em;
+				}
+
+				#bannerScraper h3 {
+					font-size: 1.25em;
+				}
+
+				#bannerScraper .flex div {
+					padding: 0 3em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#bannerScraper {
+				background-attachment: scroll;
+				padding: 5em 0 4em 0;
+			}
+
+				#bannerScraper .inner {
+					padding-top: 4em;
+				}
+
+				#bannerScraper h1 {
+					font-size: 2.5em;
+				}
+
+				#bannerScraper h3 {
+					font-size: 1.25em;
+				}
+
+				#bannerScraper .flex div {
+					font-size: .85em;
+					padding: 0 1.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#bannerScraper {
+				padding: 4em 0 3em 0;
+			}
+
+				#bannerScraper .inner {
+					padding-top: 3em;
+				}
+
+				#bannerScraper h1 {
+					font-size: 2em;
+				}
+
+				#bannerScraper h3 {
+					font-size: 1.25em;
+				}
+
+				#bannerScraper .flex {
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					margin: 0 auto 2em auto;
+				}
+
+					#bannerScraper .flex div {
+						font-size: .85em;
+						padding: 0;
+						border: none;
+						margin-bottom: 1em;
+					}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#bannerScraper h1 {
+				font-size: 1.5em;
+			}
+
+		}
+
 /* Footer */
 
 	#footer {
