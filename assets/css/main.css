@@ -2300,6 +2300,15 @@
 		height: 200px;
 		border-radius: 20%;
 	}
+	.banner img{
+		display: block;
+		margin: auto;
+		margin-left: auto;
+    		margin-right: auto;
+		clear: left;
+		width: 500px;
+		height: 300px;
+	}
 	.logoLeft img{            /*use class bioform (no img)*/
 		float: left;
 		/* margin-right: 30px; */
