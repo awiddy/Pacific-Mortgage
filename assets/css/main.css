@@ -2296,11 +2296,11 @@
 		display: block;
 		margin: auto;
 		clear: left;
-		width: 450px;
+		width: 800px; /*450*/
 		height: 257px;
 		border-radius: 20%;
 	}
-	.banner img{
+	.bannerTop img{
 		display: block;
 		margin: auto;
 		margin-left: auto;
