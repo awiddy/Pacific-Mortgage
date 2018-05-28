@@ -2306,7 +2306,7 @@
 		margin-left: auto;
     		margin-right: auto;
 		clear: left;
-		width: 500px;
+		/* width: 500px; */
 		height: 300px;
 	}
 	.logoLeft img{            /*use class bioform (no img)*/
