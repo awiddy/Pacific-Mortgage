@@ -2296,8 +2296,8 @@
 		display: block;
 		margin: auto;
 		clear: left;
-		width: 800px; /*450*/
-		height: 257px;
+		width: 500px; /*OG pic aspect ration 3.5/2 */
+		height: 290px;
 		border-radius: 20%;
 	}
 	.bannerTop img{
