@@ -2296,8 +2296,8 @@
 		display: block;
 		margin: auto;
 		clear: left;
-		width: 550px; /*OG pic aspect ration 3.5/2 */
-		height: 310px;
+		width: 420px; /*OG pic aspect ration 3.5/2 */
+		height: 260px;
 		border-radius: 20%;
 	}
 	.bannerPic img{
