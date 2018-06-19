@@ -3544,6 +3544,197 @@
 			}
 
 		}
+	#bannerTestm {
+		padding: 8em 0 9em 0;
+		background-image: url(../../images/poolLight.jpg);
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+	}
+
+		#bannerTestm:before {
+			content: '';
+			background: rgba(75, 75, 93, 0.4); /*changed last from 0.85 guessing its opacity*/
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		#bannerTestm .inner {
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 8em;
+		}
+
+		#bannerTestm h1 {
+			font-size: 3.5em;
+			font-weight: 400;
+			color: #fff;
+			line-height: 1em;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+
+		#bannerTestm h3 {
+			font-weight: 400;
+			color: #fff;
+			margin: 0;
+			font-size: 1.5em;
+		}
+
+		#bannerTestm .icon {
+			color: #6cc091 /* Color replace */;
+			font-size: 2em;
+		}
+
+		#bannerTestm p {
+			font-size: 1em;
+			color: rgba(255, 255, 255, 0.55);
+			margin-bottom: 1.75em;
+		}
+
+		#bannerTestm .flex {
+			-ms-flex-pack: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto 4em auto;
+		}
+
+			#bannerTestm .flex div {
+				border-right: 2px solid rgba(255, 255, 255, 0.2);
+				padding: 0 8em;
+			}
+
+				#bannerTestm .flex div:last-child {
+					border: none;
+					padding-right: 0;
+				}
+
+				#bannerTestm .flex div:first-child {
+					padding-left: 0;
+				}
+
+				#bannerTestm .flex div p {
+					margin: 0;
+				}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+			#bannerTestm {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			#bannerTestm .flex div {
+				padding: 0 6em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#bannerTestm {
+				padding: 7em 0 6em 0;
+			}
+
+				#bannerTestm .inner {
+					padding-top: 6em;
+				}
+
+				#bannerTestm h1 {
+					font-size: 3em;
+				}
+
+				#bannerTestm h3 {
+					font-size: 1.25em;
+				}
+
+				#bannerTestm .flex div {
+					padding: 0 3em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#bannerTestm {
+				background-attachment: scroll;
+				padding: 5em 0 4em 0;
+			}
+
+				#bannerTestm .inner {
+					padding-top: 4em;
+				}
+
+				#bannerTestm h1 {
+					font-size: 2.5em;
+				}
+
+				#bannerTestm h3 {
+					font-size: 1.25em;
+				}
+
+				#bannerTestm .flex div {
+					font-size: .85em;
+					padding: 0 1.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#bannerTestm {
+				padding: 4em 0 3em 0;
+			}
+
+				#bannerTestm .inner {
+					padding-top: 3em;
+				}
+
+				#bannerTestm h1 {
+					font-size: 2em;
+				}
+
+				#bannerTestm h3 {
+					font-size: 1.25em;
+				}
+
+				#bannerTestm .flex {
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					margin: 0 auto 2em auto;
+				}
+
+					#bannerTestm .flex div {
+						font-size: .85em;
+						padding: 0;
+						border: none;
+						margin-bottom: 1em;
+					}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#bannerTestm h1 {
+				font-size: 1.5em;
+			}
+
+		}
 	#bannerLoans {
 		padding: 8em 0 9em 0;
 		background-image: url(../../images/greenHill_houses.jpg);
