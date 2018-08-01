@@ -11,6 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="images/pacificmtg_logo.ico" rel="shortcut icon">
+		<style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: auto;  /* The width is the width of the web page */
+       }
+    </style>
 	</head>
 	<body>
 
@@ -39,7 +46,7 @@
 				<div class="inner">
 					<header>
 						<h1>Welcome to Pacific Mortgage Co</h1> <!--banner title above icons-->
-						<h3>We know the ins and outs so you can avoid the ups and downs</h3>
+						<h3>We know the ins and outs, so you can avoid the ups and downs</h3>
 						<br />
 					</header>
 
@@ -236,6 +243,24 @@
 							<li><input value="Send Message" class="button alt" type="submit"></li>
 						</ul>
 					</form>
+
+				<!-- GOOGLE MAP API -->
+					<div id="map"></div>
+					<script>
+						// Initialize and add the map
+						function initMap() {
+						 // The location of Uluru
+						 var uluru = {lat: 33.794880, lng: -118.348249};
+						 // The map, centered at Uluru
+						 var map = new google.maps.Map(
+								 document.getElementById('map'), {zoom: 12, center: uluru});
+						 // The marker, positioned at Uluru
+						 var marker = new google.maps.Marker({position: uluru, map: map});
+						}
+							 </script>
+							 <script async defer
+							 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi799MTv01g9mQ2C2p1km1v7v1bTIjs-Q&callback=initMap">
+					</script>
 
 
 					<div class="copyright">
