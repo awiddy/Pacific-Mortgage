@@ -2310,8 +2310,8 @@
 		height: 300px;
 	}
 	.logoLeft img{            /*use class bioform (no img)*/
-		float: left;
-		/* margin-right: 30px; */
+		float: right;
+		margin-right: 30px;
 		display: block;
 		width: 150px;
 	}
