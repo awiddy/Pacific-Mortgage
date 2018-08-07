@@ -2970,7 +2970,7 @@
 /* Banner */
 
 	#banner {
-		padding: 8em 0 4em 0;
+		padding: 8em 0 4em 0; <!-- originally 8em 0 7em 0-->
 		background-image: url(../../images/hammockFronds.JPG);
 		background-size: cover;
 		background-position: bottom;
