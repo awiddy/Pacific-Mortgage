@@ -1,3 +1,6 @@
+
+/* reverted to 9583769  on Aug 1 SLIMMED BANNER  */
+
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
@@ -2970,7 +2973,7 @@
 /* Banner */
 
 	#banner {
-		padding: 8em 0 4em 0; <!-- originally 8em 0 7em 0-->
+		padding: 8em 0 4em 0;
 		background-image: url(../../images/hammockFronds.JPG);
 		background-size: cover;
 		background-position: bottom;
