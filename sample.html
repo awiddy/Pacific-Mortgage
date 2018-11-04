@@ -5,124 +5,131 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<title>Sample</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link href="images/pacificmtg_logo.ico" rel="shortcut icon">
-		<style>
-      /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: auto;  /* The width is the width of the web page */
-       }
-    </style>
-	</head>
-	<body>
 
-		<!-- Header -->
-			<header id="header">
-				<!--<div class="inner">
+<head>
+	<title>Sample | Pacific Mortgage Co</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link href="images/pacificmtg_logo.ico" rel="shortcut icon">
+	<style>
+		/* Set the size of the div element that contains the map */
+		#map {
+			height: 400px;
+			/* The height is 400 pixels */
+			width: auto;
+			/* The width is the width of the web page */
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<!--<div class="inner">
 					<a href="index.html" div class="logoLeft">
 						<img src="images/pacificMtgCo_logo.png" alt="Stephan">
 					</a>
 					</div>
 
 					<!--<a href="index.html" class="logo"><strong>Pacific Mortgage Co</strong> | Home</a> -->
-					<a href="index.html" div class="logoLeft">
-						<img src="images/pacificMtgCo_logo.png" alt="Stephan">
-					</a>
-					<nav id="nav">
+		<a href="index.html" div class="logoLeft">
+			<img src="images/pacificMtgCo_logo.png" alt="Stephan">
+		</a>
+		<nav id="nav">
 
-						<a href="aboutUs.html">About Us</a>
-						<a href="loans.html">Loans</a>
-						<a href="recentTransactions.html">Recent Transactions</a>
-						<a href="JoinUs.html">Join Our Team</a>
-						<a href="testimonials.html">Testimonials</a>
-						<a href="index.html#formJump">Contact Us</a><!--https://awiddy.github.io/-->
-						<a href="blog/">Blog</a>
-						<!--
+			<a href="aboutUs.html">About Us</a>
+			<a href="loans.html">Loans</a>
+			<a href="recentTransactions.html">Recent Transactions</a>
+			<a href="JoinUs.html">Join Our Team</a>
+			<a href="testimonials.html">Testimonials</a>
+			<a href="index.html#formJump" data-no-instant>Contact Us</a>
+			<!--https://awiddy.github.io/-->
+			<a href="blog/">Blog</a>
+			<!--
 						<a href="generic.html">Generic</a>
 						<a href="elements.html">Elements</a>
 						-->
-					</nav>
-					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-				</div>
-			</header>
+		</nav>
+		<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
 
 
 
 	<!-- BODY ________________ -->
-		<section id="bannerTrans">
-				<div class="inner">
-					<header>
-						<h1>SAMPLE PAGE</h1> <!--banner title above icons-->
-					</header>
-				</div>
-		</section>
+	<section id="bannerTrans">
+		<div class="inner">
+			<header>
+				<h1>SAMPLE PAGE</h1>
+				<!--banner title above icons-->
+			</header>
+		</div>
+	</section>
 
-		<section id="three" class="wrapper">
-			<div class="inner">
+	<section id="three" class="wrapper">
+		<div class="inner">
 
-				<header class="align-center">
-						<h2>This is a page of sampling</h2>
-						<h5>extra samply</h5>
-				</header>
-				<div class="logoLeft">
-					<img src="images/pacificMtgCo_logo.png" alt="Stephan">
-				</div>
+			<header class="align-center">
+				<h2>This is a page of sampling</h2>
+				<h5>extra samply</h5>
+			</header>
+			<div class="logoLeft">
+				<img src="images/pacificMtgCo_logo.png" alt="Stephan">
+			</div>
 
-				<p>
-						156165213241651
-				</p>
+			<p>
+				156165213241651
+			</p>
 			<!--	style="margin:15px 15% 15px 15% -->
 
 			<div id="map"></div>
 			<script>
 				// Initialize and add the map
 				function initMap() {
-				 // The location of Uluru
-				 var uluru = {lat: -25.344, lng: 131.036};
-				 // The map, centered at Uluru
-				 var map = new google.maps.Map(
-						 document.getElementById('map'), {zoom: 4, center: uluru});
-				 // The marker, positioned at Uluru
-				 var marker = new google.maps.Marker({position: uluru, map: map});
+					// The location of Uluru
+					var uluru = { lat: -25.344, lng: 131.036 };
+					// The map, centered at Uluru
+					var map = new google.maps.Map(
+						document.getElementById('map'), { zoom: 4, center: uluru });
+					// The marker, positioned at Uluru
+					var marker = new google.maps.Marker({ position: uluru, map: map });
 				}
-					 </script>
-					 <script async defer
-					 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi799MTv01g9mQ2C2p1km1v7v1bTIjs-Q&callback=initMap">
+			</script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi799MTv01g9mQ2C2p1km1v7v1bTIjs-Q&callback=initMap">
 			</script>
 
 
+		</div>
+	</section>
+
+
+	<!-- BOTTOM __________________________ -->
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="copyright">
+				<p>
+					<img src="images/pacificMtgCo_logo.png" alt="logo" style="display: block; margin: auto; margin-left: auto; margin-right: auto; clear: left; height: 60px;">
+					Pacific Mortgage Corporation © 2014-2015. All Rights Reserved
+					<br />
+					BRE # 01970326, NMLS # 1494813
+					</br>
+					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>.
+				</p>
 			</div>
-		</section>
+		</div>
+	</footer>
 
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js" data-no-instant></script>
+	<script src="assets/js/skel.min.js" data-no-instant></script>
+	<script src="assets/js/util.js" data-no-instant></script>
+	<script src="assets/js/main.js" data-no-instant></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
+	<script data-no-instant>InstantClick.init();</script>
+</body>
 
-      	<!-- BOTTOM __________________________ -->
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="copyright">
-						<p>
-						<img src="images/pacificMtgCo_logo.png" alt="logo" style="display: block; margin: auto; margin-left: auto; margin-right: auto; clear: left; height: 60px;">
-						Pacific Mortgage Corporation © 2014-2015. All Rights Reserved
-						<br />
-						BRE # 01970326, NMLS # 1494813
-						</br>
-						&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>.
-						</p>
-					</div>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
