@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link href="../images/pacificmtg_logo.ico" rel="shortcut icon">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="../index.html" class="logo"><strong>Pacific Mortgage Co</strong> | Home</a>
+			<nav id="nav">
+				<a href="../aboutUs.html">About Us</a>
+				<a href="../loans.html">Loans</a>
+				<a href="../recentTransactions.html">Recent Transactions</a>
+				<a href="../JoinUs.html">Join Our Team</a>
+				<a href="../testimonials.html">Testimonials</a>
+				<a href="../index.html#formJump">Contact Us</a>
+				<!--https://awiddy.github.io/-->
+				<!--
+						<a href="generic.html">Generic</a>
+						<a href="elements.html">Elements</a>
+						-->
+			</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
+	<section id="bannerBlog">
+		<div class="inner">
+			<header>
+				<h1>Spotlight</h1>
+				<!--banner title above icons-->
+				<h5>
+					<font color="white">A blog from Pacific Mortgage Co</font>
+				</h5>
+			</header>
+		</div>
+	</section>
+
+
+	<!-- BODY ________________ -->
+
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<!--
+			<blockquote>
+				<strong>
+					This is the title of a sample entry!
+				</strong>
+			</br>
+				Just last week I told you about our plans to launch EC2 Instances with Faster Processors and More Memory. Today I am happy to report that the R5, R5d, and z1d instances are available now and you can start using them today. Let’s take a look at each one!
+			</br>
+				R5 Instances</br>
+				The memory-optimized R5 instances use custom Intel® Xeon® Platinum 8000 Series (Skylake-SP) processors running at up to 3.1 GHz, powered by sustained all-core Turbo Boost. They are perfect for distributed in-memory caches, in-memory analytics, and big data analytics, and are available in six sizes:
+			</br>
+			</br>
+				&emsp;&emsp; by Author, Sept. 3, 2018
+			</blockquote>
+			-->
+
+			<article id='blog-credit-score-factors'>
+				<h2><strong>Do this to avoid drama with the loan process</strong>
+					<h2>
+						<figure>
+							<!-- Add a blog image -->
+							<img src="../images/Dothistoavoiddramawiththeloanprocess-2.jpg" alt="Do this to avoid drama with the loan process">
+						</figure>
+
+
+						<!-- Blog Section Headers And Paragraphs -->
+						<p>
+            Surprises are best saved for birthday parties – not the home buying process. A major hiccup in the loan process is the worst case scenario that keeps both buyers and sellers awake at night. To avoid problems in escrow coming between you and your dream home – or your money – do this to avoid home loan drama.
+            </p>
+            <h4>
+            Do: Keep finances steady 
+            </h4>
+            <p>
+            Lenders want to see consistency in your bank statements and credit reports; billed pays on time and direct deposits from paychecks on a regular schedule shows lenders you have the financial means and responsibility to cover the mortgage. Spending beyond your means, carrying too much debt, or even receiving large, unexplained deposits can affect things before closing.
+            </p>
+            <h4> Don’t: Open new lines of credit</h4>
+            <p>
+            While most people know not to buy a car while in escrow, many buyers still attempt to finance new appliances, open new credit cards, or secure other lines of credit before closing. Banks often run a second credit check before closing; avoid major purchases during escrow to keep closing on time.
+            </p>
+            <h4> Do: Make a full disclosure on the application</h4>
+            <p>
+            Underwriters are notorious sticklers; they want to ensure every i is dotted and t is crossed before approving the loan and sending the mortgage into escrow. To avoid a delay in closing, make sure you disclose judgements, liens, debts, accounts, and other information up front
+            </p>
+            <h4> Don’t: Assume closing costs are the same every day</h4>
+            <p> 
+            Closing costs can vary widely depending on when in the month closing occurs; changing the closing date may seem easy, but it can leave you saddled with additional prepaid mortgage interest. For short sales or foreclosures, make sure to save a little additional extra cash for closing costs as closing is frequently delayed. 
+            </p>
+            <h4>Do: Update mortgage rates</h4>
+            <p>
+            If you received pre-approval weeks – or months – before you found your new home, make sure to ask the lender for updated mortgage rates once you have a firm closing date. Mortgage rates can change significantly in a short time; getting updated information can help you better estimate monthly payments as well as how much you’ll need at closing. Worried about locking in the right rate? Ask your lender about mortgage rate lock.
+            </p>
+            <h4>Don’t: Read the contract at closing for the first time </h4>
+            <p>
+            One of the most tedious, yet important, parts of the closing process is reading and signing the closing documents. When your future home and moving plans in the balance, however, few homeowners take the time to closely scrutinize the documents. Avoid mistakes in the closing documents by asking to read and review them in advance. This can benefit both buyers and sellers as it ensures there are no costly or time consuming errors in the contracts. 
+            </p>
+
+						<!-- Add Blog Date -->
+						<p style="font-style:italic"> by Author, Dec. 12, 2018 </p>
+			</article>
+
+
+		</div>
+	</section>
+
+
+
+
+	<!-- BOTTOM __________________________ -->
+	<br />
+	<center>
+		<A HREF="https://awiddy.github.io/#formJump" class="button">Contact Us</A> </center>
+	<br />
+	<br />
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="copyright">
+				<p>
+					<img src="../images/pacificMtgCo_logo.png" alt="logo" style="display: block; margin: auto; margin-left: auto; margin-right: auto; clear: left; height: 60px;">
+					Pacific Mortgage Corporation © 2014-2015. All Rights Reserved
+					<br />
+					BRE # 01970326, NMLS # 1494813
+					</br>
+					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/skel.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
