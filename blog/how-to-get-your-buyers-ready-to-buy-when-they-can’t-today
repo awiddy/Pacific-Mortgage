@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link href="../images/pacificmtg_logo.ico" rel="shortcut icon">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="../index.html" class="logo"><strong>Pacific Mortgage Co</strong> | Home</a>
+			<nav id="nav">
+				<a href="../aboutUs.html">About Us</a>
+				<a href="../loans.html">Loans</a>
+				<a href="../recentTransactions.html">Recent Transactions</a>
+				<a href="../JoinUs.html">Join Our Team</a>
+				<a href="../testimonials.html">Testimonials</a>
+				<a href="../index.html#formJump">Contact Us</a>
+				<!--https://awiddy.github.io/-->
+				<!--
+						<a href="generic.html">Generic</a>
+						<a href="elements.html">Elements</a>
+						-->
+			</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
+	<section id="bannerBlog">
+		<div class="inner">
+			<header>
+				<h1>Spotlight</h1>
+				<!--banner title above icons-->
+				<h5>
+					<font color="white">A blog from Pacific Mortgage Co</font>
+				</h5>
+			</header>
+		</div>
+	</section>
+
+
+	<!-- BODY ________________ -->
+
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<!--
+			<blockquote>
+				<strong>
+					This is the title of a sample entry!
+				</strong>
+			</br>
+				Just last week I told you about our plans to launch EC2 Instances with Faster Processors and More Memory. Today I am happy to report that the R5, R5d, and z1d instances are available now and you can start using them today. Let’s take a look at each one!
+			</br>
+				R5 Instances</br>
+				The memory-optimized R5 instances use custom Intel® Xeon® Platinum 8000 Series (Skylake-SP) processors running at up to 3.1 GHz, powered by sustained all-core Turbo Boost. They are perfect for distributed in-memory caches, in-memory analytics, and big data analytics, and are available in six sizes:
+			</br>
+			</br>
+				&emsp;&emsp; by Author, Sept. 3, 2018
+			</blockquote>
+			-->
+
+			<article id='blog-buyers-ready-to-buy'>
+              <h2><strong>How to get your buyers ready to buy when they can’t today</strong>
+                    </h2>
+                        <figure>
+                            <img src="../images/HowtoGetYourBuyerReadytoBuyWhenTheyCan.jpg" alt="How to get your buyers ready to buy when they can’t today"
+                                style="width:100%; max-width: 100%;">
+                            <!--style added to make image responsive-->
+                        </figure>
+                   <p>
+			   Buying a home is the biggest purchase most people will make in their lifetimes. Unfortunately, many first time buyers often begin scheduling showings or visiting open houses before they are ready to buy.  There are a number of ways agents can guide buyers – even if they aren’t ready to buy today. 
+		 </p>
+		 <h4> Common reasons clients aren’t ready to buy</h4>
+		 <ol>
+			 <li>
+				 <h4>Finances aren’t in order </h4>
+				 <p>
+					 Not being financially ready is the primary reason buyers aren’t able to immediately purchase a home. Whether it is not having a preapproval letter from a lender, not having enough for the down payment, or being unable to cover closing costs, make sure to frankly discuss the financial aspects of homeownership as early as possible. Help first time buyers get their finances in order by encouraging them to check their credit scores, build their credit in other ways, and save aggressively towards a down payment. 
+				 </p>
+			 </li>
+			 <li>
+				 <h4>Starting their search too early</h4>
+				 <p>
+					 Many first-time buyers are ready to start scheduling showings months before they are ready to put in an offer. Even if they are still saving towards a down payment or are not relocating to the area for six months or more, they may view starting the search early as a way to avoid “missing out” on their dream home. Rather than skipping showings altogether, take time to discuss their wants and needs for their first home; take them to two or three homes that are indicative of what they can get in their preferred neighborhood or at their price point, but save the serious searching for when they are ready to buy. 
+			 	 </p>
+			 </li>
+			 <li>
+				 <h4>Buyers can’t agree</h4>
+				 <p>
+				Working with first-time buyers can sometimes leave you feeling more like a couple’s counselor than a realtor. He wants to be centrally located downtown, she wants to be in the suburbs. She wants a sprawling ranch, he wants a classic colonial. He wants low maintenance, she wants a large yard. When these types of disagreements occur, discuss the pros and cons of their conflicting styles; oftentimes the best advice is to encourage them to take more time to discuss their specific wants and needs before continuing their home search. 	 
+				 </p>
+			 </li>	 
+		 </ol>
+
+                        <p style="font-style:italic"> by Author, Jan. 11, 2019 </p>
+            </article>
+	
+
+
+		</div>
+	</section>
+
+
+
+
+	<!-- BOTTOM __________________________ -->
+	<br />
+	<center>
+		<A HREF="https://awiddy.github.io/#formJump" class="button">Contact Us</A> </center>
+	<br />
+	<br />
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="copyright">
+				<p>
+					<img src="../images/pacificMtgCo_logo.png" alt="logo" style="display: block; margin: auto; margin-left: auto; margin-right: auto; clear: left; height: 60px;">
+					Pacific Mortgage Corporation © 2014-2015. All Rights Reserved
+					<br />
+					BRE # 01970326, NMLS # 1494813
+					</br>
+					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/skel.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
