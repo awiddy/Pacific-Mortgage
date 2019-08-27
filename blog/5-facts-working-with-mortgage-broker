@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link href="../images/pacificmtg_logo.ico" rel="shortcut icon">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="../index.html" class="logo"><strong>Pacific Mortgage Co</strong> | Home</a>
+			<nav id="nav">
+				<a href="../aboutUs.html">About Us</a>
+				<a href="../loans.html">Loans</a>
+				<a href="../recentTransactions.html">Recent Transactions</a>
+				<a href="../JoinUs.html">Join Our Team</a>
+				<a href="../testimonials.html">Testimonials</a>
+				<a href="../index.html#formJump">Contact Us</a>
+				<!--https://awiddy.github.io/-->
+				<!--
+						<a href="generic.html">Generic</a>
+						<a href="elements.html">Elements</a>
+						-->
+			</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
+	<section id="bannerBlog">
+		<div class="inner">
+			<header>
+				<h1>Spotlight</h1>
+				<!--banner title above icons-->
+				<h5>
+					<font color="white">A blog from Pacific Mortgage Co</font>
+				</h5>
+			</header>
+		</div>
+	</section>
+
+
+	<!-- BODY ________________ -->
+
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<!--
+			<blockquote>
+				<strong>
+					This is the title of a sample entry!
+				</strong>
+			</br>
+				Just last week I told you about our plans to launch EC2 Instances with Faster Processors and More Memory. Today I am happy to report that the R5, R5d, and z1d instances are available now and you can start using them today. Let’s take a look at each one!
+			</br>
+				R5 Instances</br>
+				The memory-optimized R5 instances use custom Intel® Xeon® Platinum 8000 Series (Skylake-SP) processors running at up to 3.1 GHz, powered by sustained all-core Turbo Boost. They are perfect for distributed in-memory caches, in-memory analytics, and big data analytics, and are available in six sizes:
+			</br>
+			</br>
+				&emsp;&emsp; by Author, Sept. 3, 2018
+			</blockquote>
+			-->
+
+			<article id='5-facts-working-with-mortgage-broker'>
+              <h2><strong>5 facts about working with a mortgage broker</strong>
+                    </h2>
+                        <figure>
+                            <img src="../images/5factsaboutworkingwithamortgagebroker.jpg" alt="5 facts about working with a mortgage broker"
+                                style="width:100%; max-width: 100%;">
+                            <!--style added to make image responsive-->
+                        </figure>
+ <p>                       
+ Finding your dream home might seem like the most stressful part of the home buying process, but for many buyers finding the right lender can be worse. From filling out multiple applications, fielding calls and emails from various lending officers, and trying to get years of financial paperwork in order, the mortgage process can take all the fun out of finding your new home. 
+</p>
+<p>
+Utilizing the services of a mortgage lender is one of the best ways to simplify the mortgage process. Whether you’re a first time home buyer, have complex lending needs, or simply don’t have the time to hunt for the perfect lender, a mortgage broker can be a valuable ally in the home buying process. The following are five facts about working with a mortgage broker. 
+</p>
+
+<h4>1.	A mortgage broker is a middleman between buyers and lenders</h4>
+<p>
+Mortgage brokers act as middlemen between lenders and buyers; they help their clients navigate the mortgage process. Because they work with multiple financial institutions, they can help buyers find the best rates, terms, and conditions for their mortgage. 
+Because their dedicated job is finding loans for their clients, brokers know how to find the best mortgages and competitive rates. They are particularly helpful for those with complicated credit histories, people who are self -employed or work seasonally, or those purchasing a second home or investment property. 
+</p>
+
+<h4>2.	Mortgage brokers are paid on commission </h4>
+<p>.
+One of the most commonly asked questions about mortgage brokers is how they get paid. Most mortgage brokers charge a commission of 1% of the loan, which is due at closing. Other brokers may negotiate “no-fee” mortgages where the fees are rolled into the loan. 
+</p>
+
+<h4>3.	A mortgage broker is like a loan concierge </h4>
+<p>
+Paying a 1% fee for something you can do yourself might seem like a tough pill to swallow. A mortgage broker, however, is like a loan concierge who is designed to make the entire process as fast and easy as possible. They handle everything from shopping around for different lenders, negotiating interest rates, preparing paperwork, collaborating with the underwriting department of the lender, and keeping in contact with the closing and title companies. This keeps the transaction running smoothly – and quickly – to closing.
+</p>
+
+<h4>4.	Besides the fee, there are few drawbacks</h4>
+<p>
+Besides the fee, there are few drawbacks to utilizing the services of a mortgage broker. As real estate professionals, they are often privy to loans and rates that regular buyers working with traditional lenders are not. In addition to saving you money, brokers can help save you time and make the whole experience less stressful. 
+</p>
+
+<h4>5.	Referrals are the best way to find a good broker</h4>
+<p>
+Ready to find a mortgage broker? Ask friends, family, coworkers, and even your real estate agent who they have had a good – or bad – experience with. Ask questions about their experience, the level of service you an expect, and their preferred communication style; this ensures you aren’t fielding multiple phone calls a day when you’d prefer to be reached over email. Likewise, don’t be afraid to interview multiple brokers before making a decision!
+</p>
+                       
+                       
+                        <p style="font-style:italic"> by Author, August. 27, 2019 </p>
+            </article>
+	
+
+
+		</div>
+	</section>
+
+
+
+
+	<!-- BOTTOM __________________________ -->
+	<br />
+	<center>
+		<A HREF="https://awiddy.github.io/#formJump" class="button">Contact Us</A> </center>
+	<br />
+	<br />
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="copyright">
+				<p>
+					<img src="../images/pacificMtgCo_logo.png" alt="logo" style="display: block; margin: auto; margin-left: auto; margin-right: auto; clear: left; height: 60px;">
+					Pacific Mortgage Corporation © 2014-2015. All Rights Reserved
+					<br />
+					BRE # 01970326, NMLS # 1494813
+					</br>
+					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/skel.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
